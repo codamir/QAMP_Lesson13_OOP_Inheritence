@@ -1,8 +1,6 @@
 package Lesson13;
 
-import org.w3c.dom.ls.LSOutput;
-
-public class SiameseCat extends Cat{
+public class SiameseCat extends Cat {
     private int price;
     private String birthPlace;
 
@@ -25,7 +23,7 @@ public class SiameseCat extends Cat{
         this.birthPlace=birthPlace;
     }
 
-    private int getPrice() {
+    public int getPrice() {
         return price;
     }
 
@@ -33,7 +31,7 @@ public class SiameseCat extends Cat{
         this.price = price;
     }
 
-    private String getBirthPlace() {
+    public String getBirthPlace() {
         return birthPlace;
     }
 
@@ -41,7 +39,7 @@ public class SiameseCat extends Cat{
         this.birthPlace = birthPlace;
     }
 
-    public void siameseCatInfo(){
+    public void siameseCatInfo() {
         System.out.println("The cat is born in: " + this.birthPlace);
         System.out.println("The price is: " + this.price);
     }

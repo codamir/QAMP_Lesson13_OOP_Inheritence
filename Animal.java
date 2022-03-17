@@ -90,31 +90,31 @@ public abstract class Animal {
         return this.male;
     }
 
-    protected String maleOrFemale (){
-        if(isMale()){
+    protected String maleOrFemale() {
+        if (isMale()) {
             return "male ";
-        }else {
+        } else {
             return "female ";
         }
     }
 
-    protected void isCarnivore(){
-        if(this.carnivore){
+    protected void isCarnivore() {
+        if (this.carnivore) {
             System.out.println("Loves to eat meat.");
-        }else {
+        } else {
             System.out.println("Does not love to eat meat.");
         }
     }
 
-    protected void isWildAnimal(){
-        if(this.wildAnimal){
+    protected void isWildAnimal() {
+        if (this.wildAnimal) {
             System.out.println("This " + this.species + " is not a domestic animal.");
-        }else {
+        } else {
             System.out.println("This " + this.species + " is a domestic animal.");
         }
     }
 
-    public void animalGeneralInfo(){
+    public void animalGeneralInfo() {
         System.out.println("This " + this.species + " is " + this.color + " color and weights: " + weight + " kg."+
                             "\nThis " + this.species + " is " + age + " years old."+
                             "\nIts height is: " + height + " cm.");

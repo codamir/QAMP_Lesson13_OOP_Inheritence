@@ -45,18 +45,18 @@ public class Dog extends Animal {
         this.trained = trained;
     }
 
-    public void dogBasicInfo(){
+    public void dogBasicInfo() {
         System.out.println("This dogs name is " + this.name +".");
         System.out.println(this.name + " is " + maleOrFemale() + "dog.");
         isCarnivore();
         isWildAnimal();
     }
 
-    public void printSpecies(){
+    public void printSpecies() {
         System.out.println(this.name + " is " + getDogBreed()+".");
-        if(this.trained){
+        if (this.trained) {
             System.out.println(this.name + " is trained dog.");
-        }else {
+        } else {
             System.out.println(this.name + " is not a trained dog.");
         }
     }

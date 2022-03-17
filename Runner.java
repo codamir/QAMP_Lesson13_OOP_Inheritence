@@ -41,7 +41,7 @@ public class Runner {
 
     }
 
-    public static void space(){
+    public static void space() {
         System.out.println("");
     }
 
